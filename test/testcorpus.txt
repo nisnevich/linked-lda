@@ -1,0 +1,4 @@
+3
+6 x x x x x x x x x x x x x x x
+7 f f f f y y y d f g s a a a a b b b c c x x x x
+8 e d e d e d a z z z a a a b b b x x x x x x x x x x x

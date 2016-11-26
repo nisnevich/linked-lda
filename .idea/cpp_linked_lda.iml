@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/CountTables.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/MultinomialDistribution.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Corpus.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CountTables.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Vocabulary.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ModelProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LinkGraph-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Corpus-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/MultinomialDistribution.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ConfigFile.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LinkGraph.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/MersenneTwister.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/linkedLDA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Vocabulary-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ConfigFile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Model.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ModelProperties.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Document-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ModelProperties-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Document.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CountTables-inl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Corpus.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/LinkGraph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Vocabulary.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Model.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Document.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/corpus.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/testLinks.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/testcorpus.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/links.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/fullLinks.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/vocab.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/lib/gcc/i686-w64-mingw32/6.2.0/include" />
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/lib/gcc/i686-w64-mingw32/6.2.0/include-fixed" />
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/i686-w64-mingw32/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/lib/gcc/i686-w64-mingw32/6.2.0/include" />
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/lib/gcc/i686-w64-mingw32/6.2.0/include-fixed" />
+          <root url="file://C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/i686-w64-mingw32/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
