@@ -674,6 +674,7 @@ uint32_t Model::gibbsSampling(Corpus* corpus, uint32_t wordID, uint32_t topic, u
 	    VI& nw_wordID = nw[wordID];
 	    VI& nd_refDoc = nd[refDoc];
 
+		tmpTopic.resize(topicSize);
 	    for (uint32_t k = 0; k < topicSize; k++) {
 	    	tmpTopic[k] = (nw_wordID[k] + beta) / (nwSum[k] + Vbeta) * (nd_refDoc[k] + alpha) / (ndSum[k] + Kalpha);
 	    }
