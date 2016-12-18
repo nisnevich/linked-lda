@@ -35,7 +35,6 @@ set(SOURCE_FILES
     test/fullLinks.txt
     test/links.txt
     test/testcorpus.txt
-    test/testLinks.txt
     test/vocab.txt
     config.txt)
 
