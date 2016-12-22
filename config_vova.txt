@@ -1,0 +1,76 @@
+# Available values:
+# - est (estimation)
+# - estc (continue estimation from past)
+# - inf (inference)
+modelStatus = est
+
+#dir = test  
+trainingCorpusFileName = test/1481986676099/content_removed_stopwords.data
+# trainingCorpusFileName = test/corpus.txt
+testCorpusFileName = test/testcorpus.txt
+
+# Link files contain links between documents (linkGraphFileName - for training, fullLinkGraphFileName - for testing).
+# Features:
+# - IMPORTANT: each document in this files MUST be linked to itself (or program will crash)
+# - order of links is not important
+linkGraphFileName = test/1481986676099/indexed.links.data
+# linkGraphFileName = test/links.txt
+fullLinkGraphFileName = test/fullLinks.txt
+
+vocabFileName = test/vocab.txt
+modelName = model/model-test-2
+
+# FIXME what does .theta file mean?
+# Features:
+# - content of .theta files depends on: iterations, topicSize
+# - content does not depend on:         TODO
+# - count of lines =            TODO
+# - count of numbers per line = topicSize
+# FYI: sometimes bugs occurred: line indexed 3 disappeared from file, and appeared again after program restart
+thetaSuffix = .theta
+
+# FIXME what does .phi file mean?
+# Features:
+# - content of .phi files depends on:    topicSize
+# - content does not depend on:         TODO
+# - count of lines =            topicSize
+# - count of numbers per line = TODO
+phiSuffix = .phi
+
+# FIXME what does .chi file mean?
+# Features:
+# - content of .chi files depends on:   topicSize, topWords
+# - content does not depend on:         iterations
+# - count of lines =            TODO
+# - count of numbers per line = TODO
+# FYI: for each watching lines indexed 2 and 5 contained only one value = 1
+chiSuffix = .chi
+
+topicAssignSuffix = .tassign
+refDocAssignSuffix = .refdoc
+topWordsSuffix = .twords
+infSuffix = .inf
+
+
+
+# ----------------- Model Parameters --------------
+
+# This parameter means count of topics
+topicSize = 20
+
+# Computational parameters
+alpha = 0.5
+beta = 0.1
+gamma =  0.1
+
+# This parameter means how much Gibbs sampling iterations will be done
+iterNumber = 300
+
+# This parameter means how much iterations will be done for inference (default: iterNumber)
+# infIterNumber = 100
+
+# This parameter means that files will be generated each "saveSteps"-th iteration
+saveSteps = 20
+
+# This parameter means count of words in each topic (cannot be more than count of unique words in dataset)
+topWords = 5

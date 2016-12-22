@@ -5,6 +5,7 @@
  *      Author: ibiro
  */
 
+#include <stdlib.h>
 #include "Corpus.h"
 #include "Corpus-inl.h"
 
