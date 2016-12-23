@@ -5,7 +5,7 @@
 modelStatus = est
 
 #dir = test  
-trainingCorpusFileName = test/1481986676099/content_removed_stopwords.data
+trainingCorpusFileName = test/1482102449780/featured.indexed.content.data
 # trainingCorpusFileName = test/corpus.txt
 testCorpusFileName = test/testcorpus.txt
 
@@ -13,7 +13,7 @@ testCorpusFileName = test/testcorpus.txt
 # Features:
 # - IMPORTANT: each document in this files MUST be linked to itself (or program will crash)
 # - order of links is not important
-linkGraphFileName = test/1481986676099/indexed.links.data
+linkGraphFileName = test/1482102449780/indexed.links.data
 # linkGraphFileName = test/links.txt
 fullLinkGraphFileName = test/fullLinks.txt
 
