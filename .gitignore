@@ -1,3 +1,5 @@
 downloads/*
 model/*
 Makefile
+!config_sanya.txt
+!config_vova.txt
