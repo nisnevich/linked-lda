@@ -56,7 +56,7 @@ infSuffix = .inf
 # ----------------- Model Parameters --------------
 
 # This parameter means count of topics
-topicSize = 200
+topicSize = 100
 
 # Computational parameters
 alpha = 0.5
@@ -73,4 +73,4 @@ iterNumber = 300
 saveSteps = 20
 
 # This parameter means count of words in each topic (cannot be more than count of unique words in dataset)
-topWords = 5
+topWords = 15

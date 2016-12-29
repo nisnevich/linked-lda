@@ -37,7 +37,7 @@ thetaSuffix = .theta
 # - count of numbers per line = TODO
 phiSuffix = .phi
 
-# FIXME what does .chi file mean?
+# This files means "cost" of each sublink of current link
 # Features:
 # - content of .chi files depends on:   topicSize, topWords
 # - content does not depend on:         iterations
@@ -73,4 +73,4 @@ iterNumber = 300
 saveSteps = 20
 
 # This parameter means count of words in each topic (cannot be more than count of unique words in dataset)
-topWords = 5
+topWords = 15
