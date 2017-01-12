@@ -56,7 +56,7 @@ infSuffix = .inf
 # ----------------- Model Parameters --------------
 
 # This parameter means count of topics
-topicSize = 100
+topicSize = 200
 
 # Computational parameters
 alpha = 0.5
