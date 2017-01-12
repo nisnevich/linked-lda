@@ -20,7 +20,6 @@ inline VI& LinkGraph::getLinks(uint32_t docID){
 		cerr << "DocID not exist!\n";
 		exit(1);
 	}
-
 }
 
 inline uint32_t LinkGraph::getIndegree(uint32_t docID){
