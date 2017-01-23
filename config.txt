@@ -2,7 +2,7 @@
 # - est (estimation)
 # - estc (continue estimation from past)
 # - inf (inference)
-modelStatus = est
+modelStatus = inf
 
 #dir = test  
 trainingCorpusFileName = test/last/content_removed_stopwords.data
@@ -73,4 +73,4 @@ iterNumber = 40
 saveSteps = 10
 
 # This parameter means count of words in each topic (cannot be more than count of unique words in dataset)
-topWords = 10
+topWords = 15
